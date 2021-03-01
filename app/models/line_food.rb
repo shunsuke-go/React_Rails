@@ -5,7 +5,10 @@ class LineFood < ApplicationRecord
 
   validates :count, numericality: { greater_than: 0 }
 
+  # 状態がactiveなもの
   scope :active, -> { where(active: true) }
+
+  # 指定されたid以外のレストラン
   scope :other_restaurant, -> (picked_restaurant_id) { where.not(restaurant_id: picked_restaurant_id) }
 
   def total_amount
