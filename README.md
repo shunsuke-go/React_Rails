@@ -1,25 +1,13 @@
-# README
+# React Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* foods 
+品物テーブル 
 
-Things you may want to cover:
+* line_foods 
+仮注文
 
-* Ruby version
+* order 
+注文内容
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# React_Rails
+* restaturants 
+レストランテーブル
