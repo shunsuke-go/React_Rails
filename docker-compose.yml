@@ -10,7 +10,9 @@ services:
     volumes:
       - mysql-data:/var/lib/mysql
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: Docker_Rails
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3001 -b '0.0.0.0'"
     volumes:
       - .:/React_Rails:delegated
@@ -20,6 +22,17 @@ services:
       - db
     stdin_open: true
     tty: true
+  front:
+    build: 
+      context: .
+      dockerfile: Docker_React
+    command: /bin/sh -c "cd frontend && yarn start"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./frontend:/frontend
+    ports:
+      - 3000:3000      
 volumes:
   mysql-data:
     driver: local
