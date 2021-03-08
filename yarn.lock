@@ -2181,6 +2181,11 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+create-next-app@^10.0.8:
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/create-next-app/-/create-next-app-10.0.8.tgz#bf8f2320e312873b4ef2a97b88326afff30ab57e"
+  integrity sha512-0bzfcyiKYoc03lc9J3A52k+ETSobhNc4JmRsyXJwmZvJMb/i0Y26DW3SGX9DEa3TW5xLjH2zGk0svmNhYIsh8Q==
+
 cross-spawn@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-3.0.1.tgz#1256037ecb9f0c5f79e3d6ef135e30770184b982"
@@ -4625,6 +4630,11 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+next-app@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/next-app/-/next-app-0.0.0.tgz#74429f7144a3bde95383d84df10dae7ef0a9cf22"
+  integrity sha512-vBpHtHZ8mzS+Ul90YVXYBdbBU3v5Ej//Vap8MVCzVBIreHQmaeT60kvqwJVZQ+reFSmU18fAhvC0xMkafWn//Q==
 
 nice-try@^1.0.4:
   version "1.0.5"

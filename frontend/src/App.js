@@ -6,7 +6,6 @@ import {
   Route,
 } from "react-router-dom";
 
-// components
 import { Restaurants } from './containers/Restaurants.jsx';
 import { Foods } from './containers/Foods.jsx';
 import { Orders } from './containers/Orders.jsx';
