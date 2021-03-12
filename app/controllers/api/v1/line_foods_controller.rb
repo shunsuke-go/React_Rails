@@ -1,6 +1,7 @@
 module Api
   module V1
     class LineFoodsController < ApplicationController
+      protect_from_forgery
       before_action :set_food, only: %i[create replace]
 
       def index
